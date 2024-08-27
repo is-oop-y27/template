@@ -1,4 +1,4 @@
-name: Prevent from config changes
+name: Forbid config changes
 
 on:
   push:
