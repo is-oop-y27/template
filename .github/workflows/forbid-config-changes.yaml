@@ -26,7 +26,7 @@ jobs:
       pull-requests: write
       id-token: write
     runs-on: ubuntu-latest
-    if: github.repository != 'is-oop-y27/template'
+    if: github.repository != 'is-oop-y27/template' && github.actor != 'asap-itmo-bot[bot]'
 
     steps:
       - name: Post report to pull request
